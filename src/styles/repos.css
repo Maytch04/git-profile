@@ -1,0 +1,198 @@
+.repo{
+
+   	margin-right: 197px;
+    margin-top: -356px;
+    width: 600px;
+    clear: left;
+    float: right;
+}
+
+
+.repoNav>ul>li{
+	margin-left: 46px;
+	color: #A3AAB1;
+	
+}
+
+.repoNav>ul>li:active{
+	margin-left: 46px;
+	color: #A3AAB1;
+	border-bottom:2px solid orange;
+}
+
+
+
+.repoNav>ul>li>span{
+	margin-left: 10px;
+}
+
+.repoNav>ul>li>a{
+	color: #A3AAB1;
+}
+
+.repoNav>ul>li>a:visited{
+	color: #A3AAB1;
+}
+
+.repoNav>ul>li>a:hover{
+	color: black;
+}
+
+
+.repoNames{
+	margin-left: 46px;
+    margin-top: 45px;
+}
+
+
+.repoNav>ul{
+	display: flex;
+	flex-direction: row;
+	font-size: 14px;
+	width: 80%;
+}
+
+.repoSearch{
+	width: 700px;
+    height: 40px;
+    margin-left: 86px;
+   }
+
+.searchInput{
+	height: 39px;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-left: -40px;
+    border-radius: 6px;
+    width: 387px;
+}
+
+.type{
+	width: 107px;
+    height: 36px;
+    float: right;
+    border-radius: 4px;
+    background: white;
+    margin-right: 45px;
+    margin-top: -24px;
+    font-size: 14px;
+    text-align: left;
+    padding-left: 12px;
+    color:gray;
+    background:#EDF0F4;
+}
+
+.languageInput{
+	width: 131px;
+    height: 36px;
+    float: right;
+    border-radius: 4px;
+    background: white;
+    margin-right:  -241px;
+    margin-top: -24px;
+    font-size: 14px;
+    text-align: left;
+    padding-left: 12px;
+    color:gray;
+    background:#EDF0F4;
+}
+
+.new{
+	width: 74px;
+    /* margin-left: 19px; */
+    height: 36px;
+    border-radius: 6px;
+    font-size: 14px;
+    color: white;
+    display: flex;
+    background: #2CBE4E;
+    margin-top: -24px;
+    margin-left: 700px;
+}
+
+.count{
+	width: 25px;
+    height: 20px;
+    margin-left: 83px;
+    margin-top: -17px;
+    border-radius: 50%;
+    background: #F0F0F0;
+}
+
+.count2{
+	width: 25px;
+    height: 20px;
+    margin-left: 35px;
+    margin-top: -17px;
+    border-radius: 50%;
+    background: #F0F0F0;
+}
+
+.count3{
+	width: 25px;
+    height: 20px;
+    margin-left: 62px;
+    margin-top: -17px;
+    border-radius: 50%;
+    background: #F0F0F0;
+}
+
+.count4{
+	width: 25px;
+    height: 20px;
+    margin-left: 61px;
+    margin-top: -17px;
+    border-radius: 50%;
+    background: #F0F0F0;
+}
+
+.repoHR{
+	width: 700px;
+    margin-left: 84px;
+    height: 10px;
+    border-bottom: 1px solid #F0F0F0;
+}
+
+.repoHR2{
+	width: 700px;
+	margin-left: 40px;
+    height: 10px;
+    border-bottom: 1px solid #F0F0F0;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:visited{
+	color:#0366D6;
+}
+
+.names{
+	color:#0366D6;
+    font-size:20px;
+    font-weight: 400;
+}
+
+.language{
+	font-size: 12px;
+	margin-top: 19px;
+	margin-left: 20px;
+
+}
+
+#dot{
+	height: 10px; 
+	width: 10px; 
+	border-radius: 50%;
+	margin-top: -12px;
+	background: orange;
+}
+
+.css{
+	height: 10px; 
+	width: 10px; 
+	border-radius: 50%;
+	margin-top: -12px;
+	background: purple;
+}

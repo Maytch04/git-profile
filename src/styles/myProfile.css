@@ -1,0 +1,45 @@
+.profile{
+    margin-left: 221px;
+    margin-top: -18px;
+    float: left;
+}
+
+.avatarPhoto{
+	/*display: flex; 
+	flex-direction: row;*/
+	
+	background: url(../assets/gitprofile.png);
+	height: 230px; 
+	width: 230px;
+	border-radius: 10px;
+	background-size: 228px;
+    background-repeat: no-repeat;
+}
+
+.nameInfo{
+	margin-left: -39px;
+}
+
+.nameInfo>ul>li{
+	margin-top: 10px;
+	font-size: 15px;
+
+}
+
+.nameInfo>ul>li:nth-child(1){
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.nameInfo>ul>li:nth-child(2){
+	width: 225px;
+	border-bottom: 1px solid #F0F0F0;color: #666666;
+}
+
+.nameInfo>ul>li:nth-child(3){
+	color: #666666;
+}
+
+
+
+

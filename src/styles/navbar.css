@@ -1,0 +1,81 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+li{
+	list-style: none;
+}
+
+.navbar{
+	display: flex; 
+	flex-direction: row; 
+	/*justify-content: space-around;*/
+	font-size: 16px;
+	width: 100%;
+	height: 53px;
+	color: #cccccc;
+    background: black;
+	align-items: center;
+	margin-bottom: 50px;
+}
+
+.logo{
+	display: flex;
+	margin-left: 15%;
+}
+
+.navInput{
+	width: 300px;
+	height: 32px;
+	background:#3F4347;
+	color:#cccccc;
+	font-size: 14px;
+	border:0px;
+	border-radius: 2px;
+}
+.gitLogo{
+	margin-right: 20px;
+	margin-top: 7px;
+}
+
+
+.navLinks{
+	display: flex; 
+	flex-direction: row;
+	width: 17%;
+	margin-left: -41px;
+}
+
+.navLinks>ul{
+	display: flex;
+	width:auto;
+}
+
+.navLinks>ul>li{
+	margin-left: 10px;
+}
+
+.rightSideNav{
+	display: flex;
+	flex-direction: row; 
+	margin-left: 250px;
+	
+}
+
+.rightSideNav>ul{
+	display: flex;
+	width: auto;
+}
+
+.rightSideNav>ul>li{
+	margin-left: 10px;
+}
+
+
+
