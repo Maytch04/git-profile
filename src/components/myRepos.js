@@ -1,5 +1,5 @@
 import React from 'react';
-import store from '../store/projStore'
+//import store from '../store/projStore'
 import {getRepos} from '../api/jsonData'
 import {connect} from 'react-redux'
 
@@ -31,12 +31,12 @@ const MyRepos = React.createClass({
 			       		</div>
 			       				<div><button className="type">Type</button></div>
 			       				<div><button className="languageInput">Language</button></div>
-			       				<div><button className="new">New</button></div>
+			       				<div><button className="new"><p>New</p></button></div>
 			       			
 			       		
 			       	
 			       	{this.props.repos.map(item=>(
-			       		<div className="repoNames">
+			       		<div key={item.id} className="repoNames">
 			       			<ul>
 			       				<li className="names"><a href={item.html_url}>{item.name}</a></li>
 			       				<li className="language"><span>{item.language}</span></li><div id="dot"></div>
